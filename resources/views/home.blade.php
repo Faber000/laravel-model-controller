@@ -7,7 +7,7 @@
     <title>Movies</title>
 </head>
 <body>
-    <h1>I nostri Film</h1>
+    <h1>Film</h1>
     @foreach ($movies as $movie)
     <div>{{$movie->title}}</div>
     @endforeach
